@@ -2,7 +2,7 @@
 
 
 
-<img src="./img/inazuma-logo.png" alt="logo-Balle">
+<img src="./img/inazuma-logo.png" alt="logo-Inazuma">
 
 > Resultado do projeto Inazuma.
 

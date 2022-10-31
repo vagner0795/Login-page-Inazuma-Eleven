@@ -4,35 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles.css">
     <title>Inazuma Eleven</title>
 </head>
 <body>
-    <div class="box">
+    <header class="menu">
 
-        <form action="" method="get">
+        <nav class="links">
+            <img src="./img/logo.png" alt="logo" class="logo">
+            <a href="" class="link">inicio</a>
+            <a href="" class="link">sobre</a>
+            <a href="" class="link">personagens</a>
+            <a href="" class="link">contato</a>
 
-            <h1 class="title">Bem Vindo Jogador!</h1>
+        </nav>
+    </header>
 
-            <p>Entre e mostre suas Habilidades no Campo!</p>
+    <main class="content-box">
 
-            <label for="email" class="email">Login:</label>
-            <input type="email" placeholder="Login" autocomplete="email" autofocus>
-            <br>
-            <br>
+        <div class="img">
+            <img src="./img/inazuma.jpg" alt="logo" class="home-img">
+        </div>
+        <div class="form">
 
-            <label for="password" class="password">Senha:</label>
-            <input for="password" type="password" placeholder="Senha" min="8">
+            <form action="" method="get">
 
-            <a href="#">Esqueceu a Senha?</a>
-            <br>
-            <br>
-            <button type="submit">Entrar</button>
+                <h1 class="title">Bem Vindo Jogador!</h1>
 
-        </form>
-      
+                <p>Entre e mostre suas Habilidades no Campo!</p>
 
-    </div>
+                <label for="email" class="email">Login:</label>
+                <input type="email" placeholder="Login" autocomplete="email" autofocus required>
+                <br>
+                <br>
+
+                <label for="password" class="password">Senha:</label>
+                <input for="password" type="password" placeholder="Senha" minlength="8" required>
+                <br>
+                <br>
+
+                <a href="#">Esqueceu a Senha?</a>
+                <br>
+                <br>
+                <button class="form-button" type="submit">Entrar</button>
+
+            </form>
+        
+
+        </div>
+
+    </main>
     
 </body>
 </html>
